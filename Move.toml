@@ -1,0 +1,15 @@
+[package]
+name = "Multi-sig wallets for DeFi platforms"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MultiSigDeFi = "0x4f62e786328f4d75ac9eb18b880d59ae2a94b182e29b935a1ac29178f047b148"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
