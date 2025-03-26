@@ -76,18 +76,13 @@ The vision of this project is to revolutionize digital asset management by provi
    aptos move publish --package-path . --profile testnet
    ```
 3. **Get the contract address** and update it in `Move.toml`.
-
+---
 ### Contract Address
 `0x4f62e786328f4d75ac9eb18b880d59ae2a94b182e29b935a1ac29178f047b148`
 
-## Usage
-1. **Create a Wallet**
-   ```sh
-   aptos move run --function-id '0x4f62...::Wallet::create_wallet' --args ...
-   ```
-2. **Deposit Funds**
-   ```sh
-   aptos move run --function-id '0x4f62...::Wallet::deposit_funds' --args ...
-   ```
+### Transaction Hash
+`0xbe6e171e861bd36adf403f180f489bce0c75af08a58bc6a96ebe0a663bb8d5bc`
 
+![alt text](image.png)
 
+---
